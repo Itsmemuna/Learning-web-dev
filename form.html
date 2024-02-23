@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <header>
+      <h2>Logo.</h2>
+      <nav>
+        <a href="./index.html"><p>Home</p></a>
+        <a href="./about.html"><p>About</p></a>
+        <a href="#"><p>Contact Us</p></a>
+      </nav>
+    </header>
+    <main>
+      <h2></h2>
+      <section>
+        <!--Forms in HTML-->
+        <form action="" method="get"> 
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" name="firstname" required>
+            <br />
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname" name="lastname">
+            <br />
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="someone@example.com">
+            <br />
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+            <br />
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" min="2000-01-01" name="dob" max="2020-12-31">
+            <br />
+            <label for="colour">Favourite Colour</label>
+            <input type="color" id="colour" name="color">
+            <br />
+            <label for="file">Upload a file</label>
+            <input type="file" id="file" name="file">
+            <br />
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" min="5" max="10">
+            <br />
+            <label for="country">Country</label>
+            <select id="country" name="country"> 
+              <option value="" disabled selected>---Select your Country---</option>
+              <optgroup label="African Countries">
+                <option value="nigeria">Nigeria</option>
+                <option value="ghana">Ghana</option>
+              </optgroup>
+              <optgroup label="Asian Countries">
+                <option value="korea">Korea</option>
+                <option value="china">China</option>
+              </optgroup>
+              <optgroup label="American Countries">
+                <option value="united states">United States</option>
+                <option value="canada">Canada</option>
+              </optgroup>
+              <optgroup label="European Countries">
+                <option value="london">London</option>
+                <option value="united kingdom">United Kingdom</option>
+              </optgroup>
+            </select>
+            <br />
+            <label for="">Language(s)</label>
+            <br />
+            <label for="english">English</label>
+            <input type="checkbox" name="language1" id="english" value="english">
+            <label for="korean">Korean</label>
+            <input type="checkbox" name="language2" id="korean" value="korean">
+            <label for="spanish">Spanish</label>
+            <input type="checkbox" name="language3" id="spanish" value="spanish">
+            <label for="italian">Italian</label>
+            <input type="checkbox" name="language4" id="italian" value="italian">
+            <br />
+            <label for="gender">Gender</label>
+            <br />
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="prefernottosay">Prefer not to say</label>
+            <input type="radio" name="gender" id="prefernottosay" value="prefernottosay">
+            <br />            
+            <!-- <button>
+               Submit
+            </button> -->
+            <input type="button" value="Submit"><!--When the type is button, the form creates a clickable button that doesn't submit the form-->
+            <input type="submit" value="Submit"><!--When the type is submit, the form creates a clickable button that submits the form-->
+        </form>
+      </section>
+      <section>
+        <figure>
+          <img src="" alt="">
+          <figcaption></figcaption>
+        </figure>
+      </section>
+      <section>
+        <h2>Blog Posts</h2>
+        <article>
+          <img src="" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+            soluta alias consequuntur voluptatum eius id totam sapiente adipisci
+            qui aperiam, in magni nam dolor animi! Illum ab quod dolor itaque.<a
+              href=""
+              >read more</a
+            >
+          </p>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <p>This site was built by <span>Onyedikachi</span></p>
+    </footer>
+  </body>
+</html>

@@ -1,106 +1,177 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>NIIT Enugu</title>
-	</head>
-	<body>
-		<!--Hello World-->
-		<!--the following below are the heading tags-->
-		<h1>This is heading 1</h1>
-		<h2>This is heading 2</h2>
-		<h3>This is heading 3</h3>
-		<h4>This is heading 4</h4>
-		<h5>This is heading 5</h5>
-		<h6>This is heading 6</h6>
+  <head>
+    <title>NIIT Enugu</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#"><p>Home</p></a>
+        <a href="./about.html"><p>About Us</p></a>
+        <a href="./form.html"><p>Contact Us</p></a>
+      </nav>
+    </header>
+    <!--Hello World-->
+    <!--the following below are the heading tags-->
+    <h1>This is heading 1</h1>
+    <h2>This is heading 2</h2>
+    <h3>This is heading 3</h3>
+    <h4>This is heading 4</h4>
+    <h5>This is heading 5</h5>
+    <h6>This is heading 6</h6>
 
-		<!--The hr draw a horizontal line through our view port -->
-		<hr /> <!--This ia a self closing tag-->
+    <!--The hr draw a horizontal line through our view port -->
+    <hr />
+    <!--This ia a self closing tag-->
 
-		<!--The paragraph tag-->
-		<p>The quick brown fox <br />jumped off the lazy dog</p>
+    <!--The paragraph tag-->
+    <p>The quick brown fox <br />jumped off the lazy dog</p>
 
-		<!--Pre tag use to format text as it was written -->
-		<pre>The quick        brown fox jumped
-		over the lazy dog</pre>
+    <!--Pre tag use to format text as it was written -->
+    <pre>
+The quick        brown fox jumped
+		over the lazy dog</pre
+    >
 
-		<!--Lists in HTML-->
-		<!--The Ordered List(OL)-->
-		<h2>List of Fruits</h2>
-		<ol type="i" start="4">
-			<li>Mango</li>
-			<li>Apple</li>
-			<li>Grapes</li>
-			<li>Banana</li>
-			<li>Cucumber</li>
-		</ol>
-		<!--The Unordered List(UL)-->
-		<h2>List of Cars<h2>
-		<ul>
-			<li>Ferrari</li>
-			<li>G-wagon</li>
-			<li>Rangerover</li>
-			<li>BMW</li>
-			<li>Rolls Royce</li>
-		</ul>
+    <!--Lists in HTML-->
+    <!--The Ordered List(OL)-->
+    <h2>List of Fruits</h2>
+    <ol type="i" start="4">
+      <li>Mango</li>
+      <li>Apple</li>
+      <li>Grapes</li>
+      <li>Banana</li>
+      <li>Cucumber</li>
+    </ol>
+    <!--The Unordered List(UL)-->
+    <h2>List of Cars</h2>
+    <ul>
+      <li>Ferrari</li>
+      <li>G-wagon</li>
+      <li>Rangerover</li>
+      <li>BMW</li>
+      <li>Rolls Royce</li>
+    </ul>
 
-		<!--The Descriptive List(DL)-->
-		<h2>List of Programming Languages</h2>
-		<dl>
-			<dt>HTML</dt>
-			<dd>This is a structural language for formatting webpages</dd>
+    <!--The Descriptive List(DL)-->
+    <h2>List of Programming Languages</h2>
+    <dl>
+      <dt>HTML</dt>
+      <dd>This is a structural language for formatting webpages</dd>
 
-			<dt>CSS</dt>
-			<dd>This is the styling language for beautifying a webpage</dd>
+      <dt>CSS</dt>
+      <dd>This is the styling language for beautifying a webpage</dd>
 
-			<dt>JavaScript</dt>
-			<dd>This is a scripting language for making the webpage dynamic and interactive</dd>
-		</dl>
+      <dt>JavaScript</dt>
+      <dd>
+        This is a scripting language for making the webpage dynamic and
+        interactive
+      </dd>
+    </dl>
 
-		<hr />
-		<!--Adding an image to HTML Document-->
-		<img src="./asset/Image" alt="man in white and black" Width="205px"/>
+    <hr />
+    <!--Adding an image to HTML Document-->
+    <img src="./asset/Image" alt="man in white and black" width="205px" />
 
-		<img src="https://images.unsplash.com/photo-1629740067905-bd3f515aa739?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D" alt="a picture of a dog" width="250px"/>
-		
+    <img
+      src="https://images.unsplash.com/photo-1629740067905-bd3f515aa739?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D"
+      alt="a picture of a dog"
+      width="250px"
+    />
 
-		<!--Creating a table in HTML-->
-		<table border="5">
-			<tr>
-				<td>S/N</td>
-				<td>Name</td>
-				<td>Email</td>
-				<td rowspan="2">Phone</td>
-			</tr>
-			<tr>
-				<td>001</td>
-				<td>Mackie</td>
-				<td>mackie@tt.com</td>
-				<!--td>+49876</td-->
-			</tr>
-			<tr>
-				<td>002</td>
-				<td>Diamant</td>
-				<td>diamant@tt.com</td>
-				<td>+13467</td>
-			</tr>
-			<tr>
-				<td>003</td>
-				<td>Sky</td>
-				<td>sky@tt.com</td>
-				<td>+3356677</td>
-			</tr>
-			<tr>
-				<td>004</td>
-				<td>Gavin</td>
-				<td>gavin@tt.com</td>
-				<td>+4478654</td>
-			</tr>
-			<tr>
-				<td colspan="3">Total</td>
-				<td>N70,000</td>
-			</tr>
-		</table>
-
-	</body>
+    <!--Creating a table in HTML-->
+    <table border="5">
+      <tr>
+        <th>S/N</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th rowspan="2">Phone</th>
+      </tr>
+      <tr>
+        <td>001</td>
+        <td>Mackie</td>
+        <td>mackie@tt.com</td>
+        <!--td>+49876</td-->
+      </tr>
+      <tr>
+        <td>002</td>
+        <td>Diamant</td>
+        <td>diamant@tt.com</td>
+        <td>+13467</td>
+      </tr>
+      <tr>
+        <td>003</td>
+        <td>Sky</td>
+        <td>sky@tt.com</td>
+        <td>+3356677</td>
+      </tr>
+      <tr>
+        <td>004</td>
+        <td>Gavin</td>
+        <td>gavin@tt.com</td>
+        <td>+4478654</td>
+      </tr>
+      <tr>
+        <td colspan="3">Total</td>
+        <td>N70,000</td>
+      </tr>
+    </table>
+    <table border="6">
+      <caption>
+        Scoresheet for Mathematics
+      </caption>
+      <thead>
+        <tr>
+          <th>S/N</th>
+          <th>Name of Students</th>
+          <th>CAT(40%)</th>
+          <th>Examination(60%)</th>
+          <th>Total(100%)</th>
+          <th>Grade</th>
+        </tr>
+      </thead>`
+      <tbody>
+        <tr>
+          <td>001</td>
+          <td>Annie</td>
+          <td>29</td>
+          <td>45</td>
+          <td>74</td>
+          <td>B</td>
+        </tr>
+        <tr>
+          <td>002</td>
+          <td>Ammie</td>
+          <td>34</td>
+          <td>50</td>
+          <td>84</td>
+          <td>A</td>
+        </tr>
+        <tr>
+          <td>003</td>
+          <td>Gabby</td>
+          <td>39</td>
+          <td>58</td>
+          <td>97</td>
+          <td>A</td>
+        </tr>
+        <tr>
+          <td>004</td>
+          <td>Mackie</td>
+          <td>36</td>
+          <td>55</td>
+          <td>91</td>
+          <td>A</td>
+        </tr>
+        <tr>
+          <td>005</td>
+          <td>Gavin</td>
+          <td>12</td>
+          <td>22</td>
+          <td>34</td>
+          <td>F</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
 </html>
-

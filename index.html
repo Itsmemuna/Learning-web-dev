@@ -2,6 +2,15 @@
 <html>
   <head>
     <title>NIIT Enugu</title>
+    <style>
+     ol li{
+        color: greenyellow;
+      }
+      li{
+        color: orange;
+      }
+      /*Since (ol li) has a higher specificity than that of (li), it won't be affected. Hover on it to check the specificity*/
+    </style>
   </head>
   <body>
     <header>
@@ -29,7 +38,7 @@
 
     <!--Pre tag use to format text as it was written -->
     <pre>
-The quick        brown fox jumped
+The quick        <span>fox</span> jumped
 		over the lazy dog</pre
     >
 

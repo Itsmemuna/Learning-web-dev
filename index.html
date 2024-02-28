@@ -3,6 +3,10 @@
   <head>
     <title>NIIT Enugu</title>
     <style>
+      *{
+        margin: 0;
+        padding: 0%;
+      }
      ol li{
         color: greenyellow;
       }
@@ -10,6 +14,39 @@
         color: orange;
       }
       /*Since (ol li) has a higher specificity than that of (li), it won't be affected. Hover on it to check the specificity*/
+      .box1{
+        border-width: 5px;
+        border-style: solid;
+        border-color: red;
+        /*To make it easier, write them all in a clockwise direction*/
+        border: 5px dashed red;
+
+        padding-top: 20px;
+        padding-right: 2opx;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        /*To make it easier, you can write them all in one line using clockwise direction*/
+        padding: 20px 20px 20px 20px;
+        /*Since they're all 20px, you can simply do*/
+        padding: 20px;
+        /*Where we have to use just two, note that the first one is up, while the second one is down*/
+        padding: 20px 20px;
+
+        margin: top 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+
+        height: 20px;
+      }
+
+      .btn{
+        border: 2px solid lightblue;
+        padding: 5px 15px;
+        margin: 20px 0 0 20px;
+        background-color: lightblue;
+        border-radius: 5px;
+      }
     </style>
   </head>
   <body>
@@ -182,5 +219,9 @@ The quick        <span>fox</span> jumped
         </tr>
       </tbody>
     </table>
+    <button class="btn">
+      Click me
+    </button>
+    <p class="box1">Hello World</p>
   </body>
 </html>

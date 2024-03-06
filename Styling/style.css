@@ -3,6 +3,7 @@
 *{
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 .logo{
     font-size: 30px;
@@ -41,6 +42,20 @@ background-color: hsl(90deg, 100%, 50%); When you reduce the brighness to the lo
     border-radius: 5px;
     background-color: lightblue;
     border-color: lightblue;
+}
+#home{
+    height: 100vh;
+    width: 100%;
+    background-color: #0000FF;
+    background: linear-gradient(45deg, red 20%, #A0032A 40%, rgb(127, 0, 255) 90%);
+    background: radial-gradient(closest-side at 60% 40%, rgb(0, 255, 127), #00C3F4 );
+    background-image: url("https://plus.unsplash.com/premium_photo-1709311897767-f6ce7e1fc227?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+    background-position: 50% 70%;
+    background-attachment: fixed;
 }
 #product{
     margin: 30px 0;

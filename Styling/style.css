@@ -1,84 +1,155 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 
-*{
-    padding: 0;
-    margin: 0;
-    scroll-behavior: smooth;
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
 }
-.logo{
-    font-size: 30px;
-    font-weight: 700;
-    font-family:'Playfair Display', serif;
-    font-style: italic;
-    text-align: center;
-    text-decoration: underline double;
+.header {
+  padding: 10px;
 }
-.card{
-display: inline-block;
-width: 300px;
-padding: 20px;
-margin: 70px;
-box-shadow: 5px 5px 10px 4px rgba(0, 0, 0, 0.25)
-/* border: 2px solid red; */
-/* height: 200px; */
-/* width: 200px; */
-/* background-color: rgb(54, 30, 0);
+.logo {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  text-align: center;
+  text-decoration: underline double;
+}
+.card {
+  display: inline-block;
+  width: 300px;
+  padding: 20px;
+  margin: 70px;
+  box-shadow: 5px 5px 10px 4px rgba(0, 0, 0, 0.25);
+  /* border: 2px solid red; */
+  /* height: 200px; */
+  /* width: 200px; */
+  /* background-color: rgb(54, 30, 0);
 background-color: #f45cde;
 background-color: hsl(90deg, 100%, 50%); When you reduce the brighness to the lowest, you get black, but when you increase the brighness to the highest, you get white */
 }
-.card figure{
-    max-width: 300px;
-    width: 100%;
-    height: 300px;
-    /* border-radius: 20px; */
+.card figure {
+  max-width: 300px;
+  width: 100%;
+  height: 300px;
+  /* border-radius: 20px; */
 }
-.card figure img{
-    width: 100%;
-    border-radius: 20px;
-    height: 100%;
+.card figure img {
+  width: 100%;
+  border-radius: 20px;
+  height: 100%;
 }
-.card button{
-    padding: 10px 20px;
-    border-radius: 5px;
-    background-color: lightblue;
-    border-color: lightblue;
+.card button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: lightblue;
+  border-color: lightblue;
 }
-#home{
-    height: 100vh;
-    width: 100%;
-    background-color: #0000FF;
-    background: linear-gradient(45deg, red 20%, #A0032A 40%, rgb(127, 0, 255) 90%);
-    background: radial-gradient(closest-side at 60% 40%, rgb(0, 255, 127), #00C3F4 );
-    background-image: url("https://plus.unsplash.com/premium_photo-1709311897767-f6ce7e1fc227?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    background-size: cover;
-    background-repeat: repeat-x;
-    background-repeat: repeat-y;
-    background-repeat: no-repeat;
-    background-position: 50% 70%;
-    background-attachment: fixed;
+#home {
+  height: 100vh;
+  width: 100%;
+  background-color: #0000ff;
+  background: linear-gradient(
+    45deg,
+    red 20%,
+    #a0032a 40%,
+    rgb(127, 0, 255) 90%
+  );
+  background: radial-gradient(
+    closest-side at 60% 40%,
+    rgb(0, 255, 127),
+    #00c3f4
+  );
+  background-image: url("https://plus.unsplash.com/premium_photo-1709311897767-f6ce7e1fc227?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
+  background-repeat: no-repeat;
+  background-position: 50% 70%;
+  background-attachment: fixed;
 }
-#product{
-    margin: 30px 0;
+#home h1 {
+  color: #000000;
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
 }
-#product h2{
-    text-align: center;
+#home p {
+  color: #ffffff;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
 }
-.product-desc{
-    margin: 10px 0;
+/* #home p::first-letter{
+    font-size: 100px; 
+}*/
+#home p::selection{
+    background-color: #d04c00;
 }
-.navlink{
-    text-decoration: none;
+#home div {
+  padding: 100px 0;
 }
-label, input, textarea{
-    display: block;
+#home button {
+  font-size: 20px;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+#product {
+  margin: 30px 0;
+}
+#product h2 {
+  text-align: center;
+}
+.product-desc {
+  margin: 10px 0;
+}
+.navlink {
+  text-decoration: none;
+}
+label,
+input,
+textarea {
+  display: block;
 }
 /*selecting the paragraph inside the anchor tag with the class "navlink"*/
-.navlink p, .logo, nav{
-    display: inline-block;
+.navlink p,
+.logo,
+nav {
+  display: inline-block;
 }
-.nav{
-    margin-left: 40%;
+.nav {
+  margin-left: 40%;
 }
-.navlink p{
-    margin: 40px;
+.navlink p {
+  /* margin: 30px; */
+  padding: 15px 20px;
+}
+.navlink p:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
+ul {
+  text-align: center;
+  /* margin: 0 auto; */
+  padding: 20px;
+}
+/* styling for blog */
+#blog ul {
+  list-style: none;
+  /* list-style-image: url(Logo.jpg); */
+}
+#blog ul li {
+  display: inline-block;
+  padding: 15px 40px;
+}
+#blog div p:nth-child(Odd){
+    color: red;
+}
+.abc:visited{
+    color: plum;
 }

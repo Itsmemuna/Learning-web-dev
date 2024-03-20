@@ -50,6 +50,17 @@ background-color: hsl(90deg, 100%, 50%); When you reduce the brighness to the lo
   border-radius: 5px;
   background-color: lightblue;
   border-color: lightblue;
+  transition-property: all; /*To target all*/
+  transition-duration: 2000ms;
+  transition-timing-function: ease-in; /*Start slow, end fast*/
+  transition-timing-function: ease-out; /*Start fast, end slow*/
+  transition-timing-function: ease-in-out; /*Start slow, move fast in-between, end slow*/
+  transition-delay: 5s; /*Not advisable*/
+  transition: all 700ms ease-in-out 400ms;
+}
+.card button:hover{
+  background-color: black;
+  color: white;
 }
 #home {
   height: 100vh;
@@ -144,7 +155,7 @@ nav {
   color: #ffffff;
   background-color: #000000;
 } */
-.navlink p::after{
+.navlink p::after {
   content: "";
   width: 100%;
   position: absolute;
@@ -154,7 +165,7 @@ nav {
   scale: 0;
   transition: 500ms ease-in;
 }
-.navlink p:hover::after{
+.navlink p:hover::after {
   scale: 1;
 }
 ul {
@@ -271,4 +282,14 @@ label::after {
   margin-top: 150px;
   /* overflow: auto; */
   /* overflow-x: scroll; */
+}
+.more-products{
+  display: block;
+  border: 2px solid lightblue;
+  width: 100px;
+  padding: 15px;
+  margin: 0 auto;
+  background-color: lightblue;
+  border-radius: 10px;
+  text-decoration: none;
 }
